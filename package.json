@@ -1,7 +1,6 @@
 {
   "name": "testscoretree",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,15 @@
   "bugs": {
     "url": "https://github.com/FeengQi/testscoretree/issues"
   },
-  "homepage": "https://github.com/FeengQi/testscoretree#readme"
+  "homepage": "https://github.com/FeengQi/testscoretree#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
